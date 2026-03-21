@@ -7,7 +7,6 @@
 [Click here to view the dashboard](#)
 
 ---
-
 ## ⚠️ IMPORTANT — SYNTHETIC DATASET NOTICE
 
 > [!WARNING]
@@ -81,11 +80,36 @@ global-health-dashboard/
 
 ---
 
+## Dataset Setup (Required — not included in repo)
+
+The CSV file is **319MB** — too large for GitHub. You need to download it manually.
+
+**Steps:**
+1. Go to 👉 [Global Health Statistics on Kaggle](https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics)
+2. Click **Download**
+3. Extract and rename the file to `global_health_statistics.csv`
+4. Place it inside a `data/` folder:
+
+```
+global-health-dashboard/
+├── dashboard_app.py
+├── data/
+│   └── global_health_statistics.csv   ← place it here
+├── requirements.txt
+└── README.md
+```
+
+5. Run `streamlit run dashboard_app.py`
+
+> The app will show a clear error message with these instructions if the file is missing.
+
+---
+
 ## Dataset Details
 
 | Field | Info |
 |---|---|
-| Source | [Kaggle — Global Health Statistics][https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics] |
+| Source | [Kaggle — Global Health Statistics](https://www.kaggle.com/) |
 | Author | malaiarasugraj |
 | Rows | ~1,000,000 |
 | Countries | 20 |
@@ -97,8 +121,9 @@ The Kaggle dataset was programmatically generated to simulate global health patt
 
 ---
 
-## Disclaimer
+## ⚖️ Disclaimer
 
-This project is built **entirely for learning purposes**.
+This project is built **entirely for educational purposes** as a university assignment.
 All health statistics displayed are **synthetic and do not reflect reality**.
+Not intended for clinical, policy, or research use.
 Not intended for clinical, policy, or research use.
