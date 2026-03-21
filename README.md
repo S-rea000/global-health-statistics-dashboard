@@ -85,7 +85,7 @@ global-health-dashboard/
 
 | Field | Info |
 |---|---|
-| Source | [Kaggle — Global Health Statistics]([https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics]) |
+| Source | [Kaggle — Global Health Statistics][https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics] |
 | Author | malaiarasugraj |
 | Rows | ~1,000,000 |
 | Countries | 20 |
