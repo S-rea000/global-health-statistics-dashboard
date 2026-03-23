@@ -3,10 +3,6 @@
 > **An interactive data visualization dashboard tracking global health outcomes across 20 countries and 6 regions (2000–2024), built with Python and Streamlit.**
 
 ---
-## Live Demo
-[Click here to view the dashboard](#)
-
----
 ## ⚠️ IMPORTANT — SYNTHETIC DATASET NOTICE
 
 > [!WARNING]
