@@ -68,17 +68,13 @@ streamlit run dashboard_app.py
 ```
 global-health-dashboard/
 ├── dashboard_app.py          # Main Streamlit app
-├── data/
-│   └── global_health_statistics.csv   # Synthetic dataset
+├── global_health_statistics.csv   # Synthetic dataset
 ├── requirements.txt
 └── README.md
 ```
 
 ---
-
-## Dataset Setup (Required — not included in repo)
-
-The CSV file is **319MB** — too large for GitHub. You need to download it manually.
+## Manual Dataset Download
 
 **Steps:**
 1. Go to 👉 [Global Health Statistics on Kaggle](https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics)
@@ -119,7 +115,7 @@ The Kaggle dataset was programmatically generated to simulate global health patt
 
 ## ⚖️ Disclaimer
 
-This project is built **entirely for educational purposes** as a university assignment.
+This project is built **entirely for educational purposes** as practice.
 All health statistics displayed are **synthetic and do not reflect reality**.
 Not intended for clinical, policy, or research use.
 Not intended for clinical, policy, or research use.
