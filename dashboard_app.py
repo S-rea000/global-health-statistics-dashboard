@@ -219,10 +219,12 @@ footer { display:none !important; }
 
 # ── Load data ─────────────────────────────────────────────────
 @st.cache_data
+@st.cache_data
 def load_data():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    fp = os.path.join(base_dir, 'data', 'global_health_statistics.csv')
+    fp = os.path.join(base_dir, 'global_health_statistics.csv')
     df = pd.read_csv(fp)
+    
     df.columns = (df.columns.str.strip().str.lower()
                   .str.replace(' ','_').str.replace('(','').str.replace(')',''))
     df['year'] = pd.to_numeric(df['year'], errors='coerce')
