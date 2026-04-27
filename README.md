@@ -1,7 +1,7 @@
 # Global Health Monitoring Dashboard
 
 > **An interactive data visualization dashboard tracking global health outcomes across 20 countries and 6 regions (2000–2024), built with Python and Streamlit.**
-
+> Dash link: https://global-health-statistics-dashboard-f2nu56i4pm5mn7v6crd2ru.streamlit.app/
 ---
 ## ⚠️ IMPORTANT — SYNTHETIC DATASET NOTICE
 
